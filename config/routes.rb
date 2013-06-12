@@ -1,5 +1,9 @@
 AASAWebsite::Application.routes.draw do
     root to: 'static_pages#home'
+    
+    match '/opportunities',    to: 'static_pages#opportunities'
+    match '/about',   to: 'static_pages#about'
+    match '/contact', to: 'static_pages#contact'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
