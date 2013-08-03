@@ -1,0 +1,61 @@
+<html>
+
+<header class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar-inner">
+
+<div id='cssmenu'>
+<ul>
+   <li><%= link_to "Home", '/home' %><span></span></a></li>
+   <li><%= link_to "People", '/people' %><span></span></a></li>
+   <li class='active '><%= link_to "Events", '/events' %><span></span></a></li>
+   <li><%= link_to "Contact", '/contact' %><span></span></a></li>
+</ul>
+</div>
+ </div>
+</header>
+<head>
+
+    <%= javascript_include_tag 'jquery' %>
+    </head>
+
+
+<div class="line-separator"></div>
+ 
+  <body>
+  <div class="line-separator"></div>
+  
+<h1> Upcoming Events! </h1>
+  <div class="line-separator"></div>
+  
+  </body>
+
+  
+ 
+  <table cellpadding='4' width='100%'>
+  <tr>
+  <td width='100%'>
+    <center><<iframe src="http://www.google.com/calendar/embed?src=fs61ltdh1j6i3dr4mous73r71s%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>></center>
+  </td>
+  </tr>
+  </table>
+
+
+  
+  <footer class="footer">
+  <nav>
+    <small>
+    
+    For more information, contact Connie Lu, Christopher Dee, or Albert Jiao.
+  </small>
+    <ul>
+    <li><%= link_to "Home     |",   '#' %></li>
+      <li><%= link_to "People     |",   '#' %></li>
+      
+      <li><%= link_to "Events     |",   '#' %></li>
+      <li><%= link_to "Contact", '#' %></li>
+      
+    </ul>
+  </nav>
+</footer>
+
+  </html>

@@ -1,27 +1,94 @@
 
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="navbar-inner">
-    <div class="container">
-      <%= link_to "Yale AASA", '/', id: "logo" %>
-      <nav>
-        <ul class="nav pull-right">
-          <li><%= link_to "HOME",    '/' %></li>
-          <li><%= link_to "HELP",    '#' %></li>
-          <li><%= link_to "OPPORTUNITIES", '/opportunities' %></li>
-          <li><%= link_to "EVENTS", '#' %></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
-<div class="center hero-unit">
-  <h1>YALE ASIAN AMERICAN STUDENT'S ALLIANCE</h1>
 
-  <h2>
-    YALE AASA
-  </h2>
+<!--
+
+<header class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar-inner">
+
+<div id='cssmenu'>
+<ul>
+   <li class='active '><%= link_to "Home", '/home' %><span></span></a></li>
+   <li><%= link_to "People", '/people' %><span></span></a></li>
+   <li><%= link_to "Events", '/events' %><span></span></a></li>
+   <li><%= link_to "Contact", '/contact' %><span></span></a></li>
+</ul>
+</div>
+ </div>
+</header>
+//-->
+<html>
+
+<header class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar-inner">
+
+<div id='cssmenu'>
+<ul>
+   <li class='active '><%= link_to "Home", '/home' %><span></span></a></li>
+   <li><%= link_to "People", '/people' %><span></span></a></li>
+   <li><%= link_to "Events", '/events' %><span></span></a></li>
+   <li><%= link_to "Contact", '/contact' %><span></span></a></li>
+</ul>
+</div>
+ </div>
+</header>
+<head>
+
+    <%= javascript_include_tag 'jquery' %>
+    </head>
+
+
+      
+  <h1>Yale Asian American Student Alliance</h1>
+
+<div class="line-separator"></div>
+    
+    
   <body>
+    <!--<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><%= link_to image_tag("banquet.jpg", alt: "MSA"), '/home' %></li>
+<li><%= link_to image_tag("JASUParty.jpg", alt: "MSA"), '/home' %></li>
+<li><%= link_to image_tag("NewYork.jpg", alt: "MSA"), '/home' %></li>
+<li><%= link_to image_tag("msa.jpg", alt: "MSA"), '/home' %></li>
+<li><%= link_to image_tag("Yakisoba.jpg", alt: "MSA"), '/home' %></li>
+<li><%= link_to image_tag("Dance.jpg", alt: "MSA"), '/home' %></li>
+<li><%= link_to image_tag("otsuka.jpg", alt: "MSA"), '/home' %></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="banquet"><%= link_to image_tag("banquet.jpg", alt: "MSA"), '/home' %>1</a>
+<a href="#" title="JASUParty"><%= link_to image_tag("JASUParty.jpg", alt: "MSA"), '/home' %>2</a>
+<a href="#" title="JASU Trip to New York"><%= link_to image_tag("NewYork.jpg", alt: "MSA"), '/home' %>3</a>
+<a href="#" title="MSA"><%= link_to image_tag("msa.jpg", alt: "MSA"), '/home' %>4</a>
+<a href="#" title="Yakisoba at Night Market"><%= link_to image_tag("Yakisoba.jpg", alt: "MSA"), '/home' %>5</a>
+<a href="#" title="Soran Bushi Dance"><%= link_to image_tag("Dance.jpg", alt: "MSA"), '/home' %>6</a>
+<a href="#" title="Master's Tea with author Julie Otsuka"><%= link_to image_tag("otsuka.jpg", alt: "MSA"), '/home' %>7</a>
+</div></div>
+	<div class="ws_shadow"></div>
+	</div>
+	<%= javascript_include_tag 'script' %>
+  //-->
+  <div class="line-separator"></div>
   
+  <h3>A Letter from Our Co-Moderators </h3>  
+  <p>
+  <b>Dear Yale Community,</b></p>
+ 
+ <p>
+Public reception of Pew Research Center’s report “The Rise of Asian Americans” released last year called to mind many misconceptions about the Asian American community. The report fed the assumption that Asian Americans can be understood as the "model minority": the fastest growing, best educated, and wealthiest minority group. What the report neglected to consider, however, are the many exceptions to these gross assumptions. AASA’s role is to help oust misleading stereotypes and to support the inherent diversity of the whole community. </p>
+<p> 
+The spring semester marks a new year for AASA. Last year AASA focused on its mandate as the political voice and unifying organization for Yale’s Asian American community. This year AASA seeks to continue in its twofold mission. AASA will continue to advocate political involvement and activism on behalf of the Asian American community through the PAEC high school conference, participation in the ECAASU 2013 conference, and bringing in various speakers. AASA will likewise continue to work as the cement between the diverse Asian American community by supporting events like Night Market, building enduring relationships among our member groups, and holding educational events such as language day and political discussions. </p>
+<p> 
+AASA will also bring community service to the forefront of its goals through volunteer opportunities that engage Asian Americans outside the Yale community. AASA will also have a greater internet presence through a revamped website. </p>
+ <p>
+AASA will foster dialogue amongst groups about common issues through restructured Executive Board meetings that will involve a forum for helping each other with events and discussions based on articles about Asian American events and ideas, as well as broader community issues that have implications for Asian Americans.
+</p>
+<p><b>
+Chris and Connie</b>
+</p>
+  <div class="line-separator"></div>
+  
+  
+  <!--
   <h3>History of the Organization </h3>
       <p>
     In the early 1970s, AASA was the only Asian American Student Group on Yale's Campus. And now
@@ -32,5 +99,24 @@ Structurally, it serves as the umbrella organization for many Asian American gro
 
 This organization is meant to attract students who are active in their specific ethnic groups as well as students who prefer to engage themselves in pan-Asian activities; these committees, therefore, are open to all interested students. Issues tackled by AASA include diversifying faculty and curricula, increasing funding for Asian American student activities, strengthening the Asian American Cultural Center, addressing the rise in hate crimes, reaching out to immigrants and Asian American families, increasing political representation.
     </p>
+//-->
   </body>
-</div>
+  
+  <footer class="footer">
+  <nav>
+    <small>
+    
+    For more information, contact Connie Lu, Christopher Dee, or Albert Jiao.
+  </small>
+    <ul>
+    <li><%= link_to "Home     |",   '#' %></li>
+      <li><%= link_to "People     |",   '#' %></li>
+      
+      <li><%= link_to "Events     |",   '#' %></li>
+      <li><%= link_to "Contact", '#' %></li>
+      
+    </ul>
+  </nav>
+</footer>
+
+  </html>
