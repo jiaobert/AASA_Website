@@ -5,6 +5,8 @@ AASAWebsite::Application.routes.draw do
     match '/contact', to: 'static_pages#contact'
     match '/events', to: 'static_pages#events'
     match '/people', to: 'static_pages#people'
+    match '/organizations', to: 'static_pages#organizations'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
